@@ -26,7 +26,7 @@
         form,
       ); //
       window.alert("Thank you for your submission. You will be returned to the home page.");
-      window.location.href = "https://matthiaskey.edu.eu.org/index.html";
+      window.location.href = "./index.html";
       console.log("Email sent successfully!", response);
     } catch (error) {
       console.error("Failed to send email:", error);
